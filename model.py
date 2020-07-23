@@ -129,6 +129,7 @@ inv_y = concatenate((test_X[:, :], test_y), axis=1)
 inv_y = scaler.inverse_transform(inv_y)
 inv_y = inv_y[:,-1]
 
+#saving data to csv files
 df = pd.DataFrame(list(zip(inv_y,inv_ypred)),index=data.index[n_train:],columns=['Nifty Actual','Nifty predicted'])
 df.to_csv('predictedNifty{0}_{1}.csv'.format(startYear,endYear),sep='\t')
 
