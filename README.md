@@ -1,4 +1,4 @@
-
+# Nifty-Stock-Predict
 
 data_loader.py ------------------------- python file for loading data
 Dow Jones2010_2020.csv ----------------- dow jones of 1st Jan,2010 to till Date 
@@ -14,4 +14,4 @@ predictedNifty2010_2020.csv ------------ saved prediction for model trained on n
 predictedNifty2010_2020.png ------------ image of prediction for model trained on nifty_data2010_2020.csv
 predictedNifty2015_2020.csv ------------ saved prediction for model trained on nifty_data2015_2020.csv
 predictedNifty2015_2020.png ------------ image of prediction for model trained on nifty_data2010_2020.csv
-vix2010_2020.csv ----------------------- volatility index from 1st Jan,2010 to till Date
+vix2010_2020.csv -----------------     - volatility index from 1st Jan,2010 to till Date
